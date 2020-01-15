@@ -1,5 +1,8 @@
 # After Line 2125
 # Paste the following line
+// Roundcube Hack 2020-01-14
+// Octavio Filipe Goncalves
+// Declare variable $available_hosts
 $available_hosts = $this->config->get('available_hosts');
 
 # Find: else if (empty($default_host)) {
