@@ -2,7 +2,7 @@
 RoundcubeHacks is intended to be a set of Roundcube hacks that I implemented, either for personal needs or for customer requests.
 
 #1st Hack
-Roundcube v1.4.2 -> Get Server Host By $GET
+Roundcube v1.4.2 -> Load Server Host By $GET
 
 We need to centralize our customers access to webmail.
 
