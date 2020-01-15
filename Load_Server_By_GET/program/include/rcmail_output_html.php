@@ -5,7 +5,7 @@ $available_hosts = $this->config->get('available_hosts');
 # Find: else if (empty($default_host)) {
 # Comment the code inside this if
 # Paste the follwing code inside this if
-// MagicBrain Hack 2020-01-14
+// Roundcube Hack 2020-01-14
 // Octavio Filipe Goncalves
 // Check if we have server host by $GET
 if (in_array($_GET["myclienthost"], $available_hosts)) {
