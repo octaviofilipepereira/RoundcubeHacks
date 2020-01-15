@@ -27,3 +27,7 @@ if (in_array($_GET["myclienthost"], $available_hosts)) {
     $button_attr = array('type' => 'submit', 'id' => 'rcmloginsubmit', 'class' => 'button mainaction submit', 'disabled' => 'disabled');
     $out .= html::p('formbuttons', html::tag('button', $button_attr, $this->app->gettext('login')));
 }
+
+# Find: $host_attrib = $autocomplete > 0 ? array() : array('autocomplete' => 'off');
+# Change the line to:
+$host_attrib = $autocomplete > 0 ? array() : array('autocomplete' => 'off', 'readonly' => 'readonly');
