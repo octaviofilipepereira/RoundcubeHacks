@@ -11,5 +11,12 @@ Additionally a validation has been created to check if the host is allowed or no
 1. If the host is allowed, the "server" field is filled in, allowing the user to authenticate to the desired server.
 2. If the host does not exist and is not allowed, the "server" field and the "login" button are automatically inactivated, prevent attacks.
 
+Files to change:
+./program/include/rcmail_output_html.php
+./config/config.inc.php
+
+Usage:
+Point your browser to: https://yourwemail.domain.tld/?myclienthost=mail.clientserver.com
+
 TODO:
 Verify user IP, and block access if certain user insists to load unallowed or unexist host server.
