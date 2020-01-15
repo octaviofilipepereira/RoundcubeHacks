@@ -20,7 +20,7 @@ if (in_array($_GET["myclienthost"], $available_hosts)) {
 # Find: if (rcube_utils::get_boolean($attrib['submit'])) {
 # Comment the code inside this if
 # Paste the follwing code inside this if
-// MagicBrain Hack 2020-01-14
+// Hack 2020-01-14
 // Octavio Filipe Goncalves
 // Check if Server Host exists in Available Hosts and perform needed actions
 if (in_array($_GET["myclienthost"], $available_hosts)) {
@@ -33,4 +33,7 @@ if (in_array($_GET["myclienthost"], $available_hosts)) {
 
 # Find: $host_attrib = $autocomplete > 0 ? array() : array('autocomplete' => 'off');
 # Change the line to:
+// Hack 2020-01-14
+// Octavio Filipe Goncalves
+// Readonly the server input field
 $host_attrib = $autocomplete > 0 ? array() : array('autocomplete' => 'off', 'readonly' => 'readonly');
