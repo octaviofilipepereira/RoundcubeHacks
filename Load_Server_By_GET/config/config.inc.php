@@ -1,5 +1,5 @@
 # After $config['default_host']
-# Create an new array with the vailable hosts, that you want to permit
+# Create an new array with the vailable "available_hosts", that you want to permit
 
 $config['available_hosts'] = array(
     'mail.test0.com',
