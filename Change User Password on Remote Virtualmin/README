@@ -15,7 +15,7 @@ IMPORTANT :: Limitations and Security
 
 INSTALATION:
 - Change the config.inc.php, as described, and transfer to your roundcube instalation;
-- Change the virtualmin_remote.php driver, as described, and transfer to your roundcube instalation;
+- Create and change the virtualmin_remote.php driver, as described, and transfer to your roundcube instalation;
 
 USAGE:
 - Login to Roundcube Webmail, access to settings->password;
