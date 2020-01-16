@@ -14,8 +14,9 @@ Additionally a validation has been created to check if the host is allowed or no
 Files to change:
 ./program/include/rcmail_output_html.php
 ./config/config.inc.php
+./config/defaults.inc.php
 
-Usage:
+Example Usage:
 Point your browser to: https://yourwemail.domain.tld/?myclienthost=mail.clientserver.com
 
 TODO:
