@@ -13,14 +13,23 @@ IMPORTANT :: Limitations and Security
   must be declared in the variables $config['remote_virtualmin_aeskey'], $config['vminruser']
   and $config['vminrport'], located in plugins/password/config,inc.php
 
+INSTALATION:
+- Change the config.inc.php, as described, and transfer to your roundcube instalation;
+- Change the virtualmin_remote.php driver, as described, and transfer to your roundcube instalation;
+
+USAGE:
+- Login to Roundcube Webmail, access to settings->password;
+- Change your user/email password;
+- To debug the connection to the remote virtualmin server, uncomment the debug line in virtualmin_remote.php;
+
+********************************************************************
+
 @version 1.0
 @author Octávio Filipe Gonçalves
 
 Copyright 2020 MagicBrain
 
-INSTALATION:
-- 
-
+********************************************************************
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
