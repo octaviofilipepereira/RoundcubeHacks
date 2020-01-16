@@ -5,7 +5,7 @@ $config['password_driver'] = 'virtualmin_remote';
 
 // Add this code in the bottom of the config file
 // VIRTUALMIN_REMOTE Driver options [Only for "virtualmin_remote" driver]
-// Define the user that have admin rights in remote your Webmin / Virtualmin servers (Usually: root)
+// Define the user that have admin rights in remote Webmin / Virtualmin servers (Usually: root)
 $config['vminruser'] = '';
 // Define your Webmin / Virtualmin port (Usually: 10000)
 $config['vminrport'] = '';
