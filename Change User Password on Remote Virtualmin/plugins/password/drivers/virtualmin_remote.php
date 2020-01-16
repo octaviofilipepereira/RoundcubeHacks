@@ -66,7 +66,7 @@ class rcube_virtualmin_remote_password
 
         // Declare the SQL statement
         // rhosts_uhost => The imap server used in login
-        // rhosts_vhost => The host that correspond to ima server and is the real vhost configured in remore virtualmin_remote
+        // rhosts_vhost => The host that correspond to imap server and is the real vhost configured in remote virtualmin server
         // rhosts_auth => Where is stored the root encrypted (AES) password of the remote Virtualmin server.
         // vdbaeskey => Your decryption key, declared in config.in.php of plugins/password/
         $sql = "SELECT rhosts_vhost AS vmin_rdomain, AES_DECRYPT(rhosts_auth, '$vdbaeskey') AS vmin_rpassword FROM $serverdbtable WHERE rhosts_uhost = '$user_host'";
