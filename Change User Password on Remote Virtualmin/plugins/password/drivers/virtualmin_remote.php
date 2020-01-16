@@ -46,7 +46,7 @@ class rcube_virtualmin_remote_password
         $vdbaeskey = $rcmail->config->get('virtualmin_DB_AES_key');
 
         // Load imap_host in session
-	      $user_host = $_SESSION['imap_host'];
+	$user_host = $_SESSION['imap_host'];
 
         // Define needed dada to remote database and auth table Access
         // This database and table is where you'll store the root password for all remote Virtualmin Servers where the webmail will connect
@@ -75,8 +75,8 @@ class rcube_virtualmin_remote_password
         $q = $pdo->query($sql);
         $q->setFetchMode(PDO::FETCH_ASSOC);
         while ($r = $q->fetch()):
-        	$vmin_rpassword = $r['vmin_rpassword'];
-          $vmin_rdomain = $r['vmin_rdomain'];
+           $vmin_rpassword = $r['vmin_rpassword'];
+           $vmin_rdomain = $r['vmin_rdomain'];
         endwhile;
 
         // Connect remote Virtualmin server and change users email password
