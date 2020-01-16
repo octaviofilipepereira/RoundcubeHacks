@@ -83,7 +83,7 @@ class rcube_virtualmin_remote_password
         $vmin_connect = shell_exec("wget -O - --quiet --http-user=".$vminruser." --http-passwd=".$vmin_rpassword." --no-check-certificate 'https://".$user_host.":".$vminrport."/virtual-server/remote.cgi?program=modify-user&domain=".$vmin_rdomain."&user=".$username."&pass=".urlencode($newpass)."'");
 
         /**
-        * Debug VIRTUALMIN API Connection, to see what's happening
+        * Debug VIRTUALMIN API Connection, to check remote virtualmin response
         * echo "<pre>$vmin_connect</pre>";
         */
     }
