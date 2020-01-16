@@ -4,6 +4,7 @@
 // Octavio Filipe Goncalves
 // Declare variable $available_hosts
 $available_hosts = $this->config->get('available_hosts');
+$show_login_button = $this->config->get('show_login_button');
 
 # Find: else if (empty($default_host)) {
 # Comment the code inside this if
@@ -27,8 +28,10 @@ if (in_array($_GET["myclienthost"], $available_hosts)) {
     $button_attr = array('type' => 'submit', 'id' => 'rcmloginsubmit', 'class' => 'button mainaction submit');
     $out .= html::p('formbuttons', html::tag('button', $button_attr, $this->app->gettext('login')));
 } else {
-    $button_attr = array('type' => 'submit', 'id' => 'rcmloginsubmit', 'class' => 'button mainaction submit', 'disabled' => 'disabled');
-    $out .= html::p('formbuttons', html::tag('button', $button_attr, $this->app->gettext('login')));
+    if ($show_login_button == '1') {
+         $button_attr = array('type' => 'submit', 'id' => 'rcmloginsubmit', 'class' => 'button mainaction submit', 'disabled' => 'disabled');
+         $out .= html::p('formbuttons', html::tag('button', $button_attr, $this->app->gettext('login')));
+    }
 }
 
 # Find: $host_attrib = $autocomplete > 0 ? array() : array('autocomplete' => 'off');
