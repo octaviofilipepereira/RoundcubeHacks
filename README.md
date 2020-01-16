@@ -1,8 +1,11 @@
 # RoundcubeHacks
 RoundcubeHacks is intended to be a set of Roundcube hacks that I implemented, either for personal needs or for customer requests.
 
-#1st Hack
-Roundcube v1.4.2 -> Load Server Host By $GET
+# Remote Virtualmin Password Driver [Roundcube v1.4.2]
+
+Driver that adds functionality to change the user/email password connecting to a remote Virtualmin server, using Virtualmin API.
+
+# Load Server Imap Server Host By $GET [Roundcube v1.4.2]
 
 We need to centralize our customers access to webmail.
 
