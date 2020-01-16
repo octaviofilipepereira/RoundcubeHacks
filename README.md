@@ -1,5 +1,3 @@
-RoundcubeHacks is intended to be a set of Roundcube hacks that I implemented, either for personal needs or for customer requests.
-
 # Remote Virtualmin Password Driver [Roundcube v1.4.2]
 
 Plugin driver that adds functionality to change the user/email password on a remote Virtualmin server, using Webmin / Virtualmin API.
