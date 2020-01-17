@@ -21,6 +21,3 @@ Files to change:
 
 Example Usage:
 Point your browser to: https://yourwemail.domain.tld/?myclienthost=mail.clientserver.com
-
-TODO:
-Verify user IP, and block access if certain user insists to load unallowed or unexist host server.
