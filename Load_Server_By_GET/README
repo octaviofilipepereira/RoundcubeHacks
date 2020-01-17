@@ -13,6 +13,9 @@ Additionally a validation has been created to check if the host is allowed or no
 
 Files to change:
 ./program/include/rcmail_output_html.php
+./program/include/rcmail.php
+./program/js/app.js
+./program/js/app.min.js
 ./config/config.inc.php
 ./config/defaults.inc.php
 
