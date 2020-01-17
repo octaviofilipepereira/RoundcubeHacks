@@ -10,6 +10,7 @@ Additionally a validation has been created to check if the host is allowed or no
 
 1. If the host is allowed, the "server" field is filled in, allowing the user to authenticate to the desired server.
 2. If the host does not exist and is not allowed, the "server" field and the "login" button are automatically inactivated, prevent attacks.
+3. After user logout the storage server used by the user, will be available to use again.
 
 Files to change:
 ./program/include/rcmail_output_html.php
