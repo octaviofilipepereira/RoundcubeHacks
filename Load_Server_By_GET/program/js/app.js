@@ -13,3 +13,6 @@ else if (task == 'logout') {
 
   this.clear_compose_data();
 }
+
+// Don't forget that after you change the file app.js you must to minify this file to app.min.js
+// If you want you can use the app.min.js in this repository, which is the same as the original but with this change.
