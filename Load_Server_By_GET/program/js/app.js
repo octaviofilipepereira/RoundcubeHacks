@@ -8,4 +8,4 @@ var imap_host = this.env.imap_host;
 // Paste the following line
 
 // Add user imap host to URL after logout
-url += '&omeumail=' + imap_host;
+url += '&myclienthost=' + imap_host;
