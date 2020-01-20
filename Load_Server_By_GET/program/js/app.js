@@ -9,7 +9,7 @@ else if (task == 'logout') {
 
   url = this.secure_url(url);
   // Add user imap host to URL after logout
-  url += '&omeumail=' + imap_host;
+  url += '&myclienthost=' + imap_host;
 
   this.clear_compose_data();
 }
