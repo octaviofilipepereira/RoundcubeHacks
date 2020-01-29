@@ -20,4 +20,3 @@ ALTER TABLE `vwrhosts`
 --
 ALTER TABLE `vwrhosts`
   MODIFY `rhosts_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'ID Auto-Increment', AUTO_INCREMENT=1;
-COMMIT;
