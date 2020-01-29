@@ -6,7 +6,7 @@ CREATE TABLE `vwrhosts` (
   `rhosts_id` int(10) UNSIGNED NOT NULL COMMENT 'ID Auto-Increment',
   `rhosts_uhost` varchar(50) NOT NULL COMMENT 'User Login Imap Host (ie: mail.server.com)',
   `rhosts_vhost` varchar(50) NOT NULL COMMENT 'Virtual Host Registered in Remote Virtualmin (ie: server.com)',
-  `rhosts_auth` varbinary(100) NOT NULL COMMENT 'Root password of the remote visrtual server (AES Encrypted)'
+  `rhosts_auth` varbinary(100) NOT NULL COMMENT 'Root password of the remote virtual server (AES Encrypted)'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
